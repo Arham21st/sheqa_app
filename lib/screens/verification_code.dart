@@ -36,17 +36,14 @@ class VerificationCode extends StatelessWidget {
                 BigText(text: "Verification Code",size: Dimensions.height30,fontWeight: FontWeight.bold,),
                 SizedBox(height: Dimensions.height15,),
 
-                SmallText(text: "Pellentesque pellentesque amet porta sed ac duis sed diam.",
-                 fontWeight: FontWeight.w300,
-                 size: Dimensions.width25,
-                 height: 1.5,),
+                SmallText(text: "Pellentesque pellentesque amet porta sed ac duis sed diam.",),
                 
                 
                 SizedBox(height: Dimensions.width10*8,),
-                Container(height: Dimensions.height20*10,
+                SizedBox(height: Dimensions.height20*10,
                 
                 
-                child: VerificationCodeField(),),
+                child: const VerificationCodeField(),),
                 
               ],
             ),
@@ -54,7 +51,7 @@ class VerificationCode extends StatelessWidget {
 
           Positioned(
             top: Dimensions.height30*13,
-            left: Dimensions.width15*6.5,
+            left: Dimensions.width15*4.5,
             child: Row(
               children: [
                 SmallText(text: "Didn’t get the code? ",fontWeight: FontWeight.w400,),

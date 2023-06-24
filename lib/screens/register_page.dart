@@ -42,20 +42,19 @@ bool? isChecked = false;
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-                BigText(text: "Register",size: Dimensions.height30,fontWeight: FontWeight.bold,),
+                BigText(text: "Register",
+                size: Dimensions.height30,
+                fontWeight: FontWeight.bold,),
                 SizedBox(height: Dimensions.height15,),
 
-                SmallText(text: "Pellentesque pellentesque amet porta sed ac duis sed diam.",
-                 fontWeight: FontWeight.w300,
-                 size: Dimensions.width25,
-                 height: 1.5,),
+                SmallText(text: "Pellentesque pellentesque amet porta sed ac duis sed diam.",),
 
                 SizedBox(height: Dimensions.height45,),
                 BigText(text: "Phone Number",size: Dimensions.height35/2,),
                 SizedBox(height: Dimensions.width10,),
                 SizedBox(height: Dimensions.height20*3,
                 width: Dimensions.width20*17,
-                child: PhoneTextField(icon: Icons.phone, text: '123',),),
+                child: PhoneTextField(icon: Icons.phone, text: '123-456-789',),),
                 
                 
                 

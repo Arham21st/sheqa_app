@@ -17,7 +17,7 @@ class SmallText extends StatelessWidget {
           this.size=12,
           this.height = 1.2,
           this.fontWeight = FontWeight.w300,
-          this.foonSize= 20
+          this.foonSize= 18
           });
 
   @override
@@ -29,7 +29,8 @@ class SmallText extends StatelessWidget {
           fontSize: foonSize,
           height: height,
           fontWeight: fontWeight,
-          letterSpacing: 1.4
+          letterSpacing: 1.8,
+          fontFamily: "Roboto"
           
 
           

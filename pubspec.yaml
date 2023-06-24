@@ -88,3 +88,30 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+      
+  # fonts:
+  #     -  family: Roboto
+          # fonts:
+          # - asset: assets/font/Roboto-Regular.ttf
+          #   weight: 300
+          # - asset: assets/font/Roboto-Medium.ttf
+          #   weight: 500
+          # - asset: assets/font/Roboto-Bold.ttf
+          #   weight: 700
+          # - asset: assets/font/Roboto-Black.ttf
+          #   weight: 900
+
+  assets: [
+      assets/,
+      
+      family: Roboto,
+          asset: assets/fonts/Roboto-Bold.ttf
+          
+      
+  
+
+
+
+  ]
+       

@@ -35,10 +35,7 @@ class SelectRole extends StatelessWidget {
                 BigText(text: "Select Role",size: Dimensions.height30,fontWeight: FontWeight.w800,),
                 SizedBox(height: Dimensions.height15,),
 
-                SmallText(text: "Please choose the registration type.",
-                 fontWeight: FontWeight.w300,
-                 size: Dimensions.width25,
-                 height: 1.5,),
+                SmallText(text: "Please choose the registration type.",),
                 
                 
               ],

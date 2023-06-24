@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sheqa_app/screens/complete_info_page.dart';
+import 'package:sheqa_app/screens/home_page.dart';
 import 'package:sheqa_app/screens/login_page.dart';
+import 'package:sheqa_app/screens/property_view1.dart';
 import 'package:sheqa_app/screens/register_page.dart';
 import 'package:sheqa_app/screens/select_role.dart';
 import 'package:sheqa_app/screens/verification_code.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CompleteInfo()
+      home: PropertyView1()
      
       
     );

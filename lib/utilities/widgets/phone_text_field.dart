@@ -60,7 +60,7 @@ class _PhoneTextFieldState extends State<PhoneTextField> {
     return Scaffold(
      
       body: Padding(
-        padding: EdgeInsets.only(bottom: Dimensions.height10),
+        padding: EdgeInsets.only(bottom: 0),
         child: 
             TextField(
               controller: myController,

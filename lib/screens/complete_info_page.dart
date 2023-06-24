@@ -18,6 +18,7 @@ class _CompleteInfoState extends State<CompleteInfo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //backgroundColor: Colors.white54,
       body: Stack(
         children: [
           Positioned(
@@ -64,8 +65,8 @@ class _CompleteInfoState extends State<CompleteInfo> {
                 SizedBox(height: Dimensions.width10,),
                 SizedBox(height: Dimensions.height20*3,
                 width: Dimensions.width20*17,
-                child: PhoneTextField(icon: Icons.email_outlined,
-                text: "Enter your city",
+                child: PhoneTextField(icon: Icons.place,
+                text: "Select your city",
                 type: TextInputType.emailAddress,
                 suffixIcon: Icons.arrow_drop_down_outlined,),),
                 

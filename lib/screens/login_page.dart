@@ -51,17 +51,14 @@ class LoginPage extends StatelessWidget {
                 BigText(text: "Login",size: Dimensions.height35,fontWeight: FontWeight.bold,),
                 SizedBox(height: Dimensions.height15,),
 
-                SmallText(text: "Porttitor nunc duis ultrices consectetur\ncursus non et.",
-                 fontWeight: FontWeight.w300,
-                 size: Dimensions.width25,
-                 height: 1.5,),
+                SmallText(text: "Porttitor nunc duis ultrices consectetur cursus non et.",),
                 
                 SizedBox(height: Dimensions.height45,),
                 BigText(text: "Phone Number",size: Dimensions.height35/2,),
                 SizedBox(height: Dimensions.width10,),
                 Container(height: 200,
                 width: Dimensions.width20*17,
-                child: PhoneTextField(icon: Icons.phone, text: '123',),),
+                child: PhoneTextField(icon: Icons.phone, text: '123-456-789',),),
                 
               ],
             ),

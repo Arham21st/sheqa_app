@@ -15,7 +15,7 @@ class BigText extends StatelessWidget {
           required this.text,
           this.size=0,
           this.overFlow=TextOverflow.ellipsis,
-          this.fontWeight= FontWeight.w400
+          this.fontWeight= FontWeight.w500
           });
 
   @override
@@ -28,7 +28,8 @@ class BigText extends StatelessWidget {
           color: color,
           fontSize: size==0?Dimensions.font20:size,
           fontWeight: fontWeight,
-         // fontFamily: 'Roboto-Regular',
+          fontFamily: 'Roboto-Bold',
+         
 
           
 

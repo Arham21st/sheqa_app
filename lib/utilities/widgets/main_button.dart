@@ -27,7 +27,7 @@ class MainButton extends StatelessWidget {
           children: [
              Container(
                 height: Dimensions.height30*2,
-                width: Dimensions.width30*10,
+                width: Dimensions.width30*10.5,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(Dimensions.height5),
                   border: Border.all(color: borderColor),
